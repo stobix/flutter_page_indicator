@@ -3,8 +3,7 @@ library flutter_page_indicator;
 import 'package:flutter/material.dart';
 
 class WarmPainter extends BasePainter {
-  WarmPainter(PageIndicator widget, double page, int index, Paint paint)
-      : super(widget, page, index, paint);
+  WarmPainter(super.widget, super.page, super.index, super.paint);
 
   void draw(Canvas canvas, double space, double size, double radius) {
     double progress = page - index;
@@ -33,8 +32,7 @@ class WarmPainter extends BasePainter {
 }
 
 class DropPainter extends BasePainter {
-  DropPainter(PageIndicator widget, double page, int index, Paint paint)
-      : super(widget, page, index, paint);
+  DropPainter(super.widget, super.page, super.index, super.paint);
 
   @override
   void draw(Canvas canvas, double space, double size, double radius) {
@@ -54,8 +52,7 @@ class DropPainter extends BasePainter {
 }
 
 class NonePainter extends BasePainter {
-  NonePainter(PageIndicator widget, double page, int index, Paint paint)
-      : super(widget, page, index, paint);
+  NonePainter(super.widget, super.page, super.index, super.paint);
 
   @override
   void draw(Canvas canvas, double space, double size, double radius) {
@@ -74,8 +71,7 @@ class NonePainter extends BasePainter {
 }
 
 class SlidePainter extends BasePainter {
-  SlidePainter(PageIndicator widget, double page, int index, Paint paint)
-      : super(widget, page, index, paint);
+  SlidePainter(super.widget, super.page, super.index, super.paint);
 
   @override
   void draw(Canvas canvas, double space, double size, double radius) {
@@ -85,8 +81,7 @@ class SlidePainter extends BasePainter {
 }
 
 class ScalePainter extends BasePainter {
-  ScalePainter(PageIndicator widget, double page, int index, Paint paint)
-      : super(widget, page, index, paint);
+  ScalePainter(super.widget, super.page, super.index, super.paint);
 
   // 连续的两个点，含有最后一个和第一个
   @override
@@ -134,8 +129,7 @@ class ScalePainter extends BasePainter {
 }
 
 class ColorPainter extends BasePainter {
-  ColorPainter(PageIndicator widget, double page, int index, Paint paint)
-      : super(widget, page, index, paint);
+  ColorPainter(super.widget, super.page, super.index, super.paint);
 
   // 连续的两个点，含有最后一个和第一个
   @override
