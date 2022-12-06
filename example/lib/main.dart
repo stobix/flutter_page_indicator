@@ -1,8 +1,7 @@
+import 'package:another_transformer_page_view/another_transformer_page_view.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_page_indicator/flutter_page_indicator.dart';
-
-import "package:transformer_page_view/transformer_page_view.dart";
 
 void main() => runApp(new MyApp());
 
@@ -29,7 +28,7 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({super.key, required this.title});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -49,10 +48,9 @@ class MyHomePage extends StatefulWidget {
 class RadioGroup extends StatefulWidget {
   final List<String> titles;
 
-  final ValueChanged<int> onIndexChanged;
+  final ValueChanged<int?> onIndexChanged;
 
-  const RadioGroup({Key key, this.titles, this.onIndexChanged})
-      : super(key: key);
+  const RadioGroup({super.key, required this.titles, required this.onIndexChanged});
 
   @override
   State<StatefulWidget> createState() {
@@ -61,7 +59,7 @@ class RadioGroup extends StatefulWidget {
 }
 
 class _RadioGroupState extends State<RadioGroup> {
-  int _index = 1;
+  int? _index = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -74,7 +72,7 @@ class _RadioGroupState extends State<RadioGroup> {
             new Radio<int>(
                 value: index,
                 groupValue: _index,
-                onChanged: (int index) {
+                onChanged: (int? index) {
                   setState(() {
                     _index = index;
                     widget.onIndexChanged(_index);
@@ -98,7 +96,7 @@ class _MyHomePageState extends State<MyHomePage> {
   double size = 20.0;
   double activeSize = 30.0;
 
-  PageController controller;
+  late PageController controller;
 
   PageIndicatorLayout layout = PageIndicatorLayout.SLIDE;
 
@@ -120,74 +118,74 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     var children = <Widget>[
-      new Container(
+      Container(
         color: Colors.red,
       ),
-      new Container(
+      Container(
         color: Colors.green,
       ),
-      new Container(
+      Container(
         color: Colors.blueAccent,
       ),
-      new Container(
+      Container(
         color: Colors.grey,
       )
     ];
-    return new Scaffold(
-        appBar: new AppBar(
-          title: new Text(widget.title),
+    return Scaffold(
+        appBar: AppBar(
+          title: Text(widget.title),
         ),
-        body: new Column(
+        body: Column(
           children: <Widget>[
-            new Row(
+            Row(
               children: <Widget>[
-                new Checkbox(
+                Checkbox(
                     value: loop,
-                    onChanged: (bool value) {
+                    onChanged: (bool? value) {
                       setState(() {
-                        if (value) {
-                          controller = new TransformerPageController(
-                              itemCount: 4, loop: true);
+                        if (value == true) {
+                          controller = TransformerPageController(itemCount: 4, loop: true);
                         } else {
                           controller = new PageController(
                             initialPage: 0,
                           );
                         }
-                        loop = value;
+                        loop = value == true;
                       });
                     }),
-                new Text("loop"),
+                Text("loop"),
               ],
             ),
-            new RadioGroup(
+            RadioGroup(
               titles: layouts.map((s) {
                 var str = s.toString();
                 return str.substring(str.indexOf(".") + 1);
               }).toList(),
-              onIndexChanged: (int index) {
+              onIndexChanged: (int? index) {
+                if(index != null)
                 setState(() {
                   _index = index;
                   layout = layouts[index];
                 });
               },
             ),
-            new Expanded(
-                child: new Stack(
+            Expanded(
+                child: Stack(
               children: <Widget>[
                 loop
-                    ? new TransformerPageView.children(
+                    ? TransformerPageView.children(
                         children: children,
-                        pageController: controller,
+                        pageController: controller as TransformerPageController,
                       )
-                    : new PageView(
+                    : PageView(
                         controller: controller,
                         children: children,
                       ),
-                new Align(
+                Align(
                   alignment: Alignment.bottomCenter,
-                  child: new Padding(
-                    padding: new EdgeInsets.only(bottom: 20.0),
-                    child: new PageIndicator(
+                  child: Padding(
+                    padding: EdgeInsets.only(bottom: 20.0),
+                    child: PageIndicator(
                       layout: layout,
                       size: size,
                       activeSize: activeSize,

@@ -2,42 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c55e00a0-e465-4e5c-955c-b21ab72efdcc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" afterPath="$PROJECT_DIR$/example/lib/main.dart" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" afterPath="$PROJECT_DIR$/example/pubspec.lock" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" afterPath="$PROJECT_DIR$/example/pubspec.yaml" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_page_indicator.dart" afterPath="$PROJECT_DIR$/lib/flutter_page_indicator.dart" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" afterPath="$PROJECT_DIR$/pubspec.yaml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/example/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/java/com/example/example/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_page_indicator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_page_indicator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/flutter_page_indicator_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/flutter_page_indicator_test.dart" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.dart_tool/" />
-    <ignored path="$PROJECT_DIR$/.idea/" />
-    <ignored path="$PROJECT_DIR$/.pub/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="flutter_page_indicator.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/flutter_page_indicator.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-              <folding>
-                <element signature="e#33#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -69,7 +73,7 @@
         <option value="$PROJECT_DIR$/test/flutter_page_indicator_test.dart" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/example/pubspec.yaml" />
-        <option value="$PROJECT_DIR$/../../transformer_page_view/lib/transformer_page_view.dart" />
+        <option value="$USER_HOME$/transformer_page_view/lib/transformer_page_view.dart" />
         <option value="$PROJECT_DIR$/example/lib/main.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/flutter_page_indicator.dart" />
@@ -78,12 +82,16 @@
       </list>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="476" />
     <option name="y" value="153" />
     <option name="width" value="1402" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectId" id="2IUVucikJDfj6QxgvgMZEUKY1F8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -123,28 +131,26 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="false" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-    <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/Users/2018m065/projekt/flutter_page_indicator",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "dart.settings",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager" selected="Flutter.main.dart (1)">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -165,57 +171,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -225,19 +180,52 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
     </configuration>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.dart (1)" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.main.dart (1)" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -248,6 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536663887639</updated>
+      <workItem from="1670236374066" duration="5959000" />
     </task>
     <servers />
   </component>
@@ -282,19 +271,30 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
-        <breakpoint type="dart-exception">
-          <properties />
-        </breakpoint>
+        <breakpoint type="dart-exception" />
       </default-breakpoints>
-      <option name="time" value="29" />
     </breakpoint-manager>
-    <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
@@ -469,7 +469,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../transformer_page_view/lib/transformer_page_view.dart">
+    <entry file="file://$USER_HOME$/transformer_page_view/lib/transformer_page_view.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="292" column="21" lean-forward="true" selection-start-line="292" selection-start-column="21" selection-end-line="292" selection-end-column="21" />
